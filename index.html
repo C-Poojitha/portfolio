@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Poojitha Chinthaginjala - Full Stack Java Developer Portfolio. Showcasing web development projects, machine learning solutions, and technical skills.">
+    <meta name="keywords" content="Full Stack Developer, Java Developer, Web Development, Machine Learning, Portfolio">
+    <meta name="author" content="Poojitha Chinthaginjala">
+    <title>Poojitha Chinthaginjala | Full Stack Java Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Loader -->
+    <div id="loader">
+        <div class="loader-content">
+            <div class="spinner"></div>
+            <p class="loader-text">Loading...</p>
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="container">
+            <div class="logo">PC</div>
+            <button class="mobile-toggle" id="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <p class="hero-greeting">Hello, I'm</p>
+                    <h1 class="hero-name" id="hero-name">Poojitha Chinthaginjala</h1>
+                    <div class="typing-container">
+                        <p class="typing-text">I'm a <span id="typed-text"></span><span class="cursor">|</span></p>
+                    </div>
+                    <p class="hero-intro" id="hero-intro">I am a motivated Computer Science graduate with strong skills
+                        in Java, HTML, CSS, and JavaScript. I enjoy building user-friendly web applications and
+                        exploring machine learning solutions.</p>
+                    <a href="Poojitha_resume-1.pdf" class="btn-download" download>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        <span class="btn-text">Download Resume</span>
+                        <span class="btn-glow"></span>
+                    </a>
+                </div>
+                <div class="hero-right">
+                    <div class="code-editor">
+                        <div class="editor-header">
+                            <div class="editor-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="editor-title">portfolio.js</div>
+                        </div>
+                        <div class="editor-content">
+                            <pre><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
+  <span class="code-property">name</span>: <span class="code-string">"Poojitha"</span>,
+  <span class="code-property">role</span>: <span class="code-string">"Full Stack Developer"</span>,
+  <span class="code-property">skills</span>: [<span class="code-string">"Java"</span>, <span class="code-string">"Python"</span>, <span class="code-string">"JavaScript"</span>],
+  <span class="code-property">passion</span>: <span class="code-string">"Building Solutions"</span>
+};</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid" id="projects-grid">
+                <!-- Projects will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="timeline" id="timeline">
+                <!-- Timeline items will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-container" id="skills-container">
+                <!-- Skills will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-subtitle">Feel free to reach out for collaborations or just a friendly chat!</p>
+                <div class="contact-info" id="contact-info">
+                    <!-- Contact details will be dynamically added here -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Poojitha Chinthaginjala. All rights reserved.</p>
+            <p class="footer-tagline">Built with <i class="fas fa-heart"></i> and <i class="fas fa-code"></i></p>
+        </div>
+    </footer>
+
+    <script src="js/constants.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
